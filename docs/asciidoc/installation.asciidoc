@@ -255,6 +255,11 @@ but they have not been tested.
 yum install elasticsearch-curator
 ----------------------------------------
 
+centos 7 
+----------------------------------------
+yum install elastic-curator
+----------------------------------------
+
 This will install the necessary files into `/opt/elasticsearch-curator` and
 make a symlink at `/usr/bin/curator` that points to the `curator` binary in the
 aforementioned directory.
